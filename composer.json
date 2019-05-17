@@ -1,0 +1,28 @@
+{
+  "name": "sarsam/php-atom-writer",
+  "type": "library",
+  "description": "Simple Atom writer library",
+  "keywords": [
+    "atom",
+    "generator",
+    "writer",
+    "feed",
+    "php"
+  ],
+  "homepage": "https://github.com/sarsam/php-atom-writer.git",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Samvel",
+      "email": "sarsamvel1993@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SarSam\\AtomWriter\\": "src"
+    }
+  }
+}
